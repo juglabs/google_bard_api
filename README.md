@@ -1,6 +1,9 @@
 # simple_chat
 
-A Flutter project to design chat window and page
+A Flutter project to use Google Bard service
+
+The UI is plain vanilla chat window. Needs quite some work to make it pleasing. 
+
 
 ## Getting Started
 
