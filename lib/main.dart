@@ -26,7 +26,7 @@ class _ChatScreenState extends State<ChatScreen> {
   TextEditingController _promptController = TextEditingController();
 
   Future<String> getAIResponse(String prompt) async {
-    final apiUrl = Uri.parse('https://generativelanguage.googleapis.com/v1beta2/models/text-bison-001:generateText?key=AIzaSyDu18V-fdOZQEYL6wORKLq1tvYdknm7zL0');
+    final apiUrl = Uri.parse('https://generativelanguage.googleapis.com/v1beta2/models/text-bison-001:generateText?key=YOUR_API_KEY');
     final requestBody = {
       'prompt': {'text': prompt},
     };
